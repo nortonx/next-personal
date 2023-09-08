@@ -1,8 +1,10 @@
+'use client';
+
 import React from 'react';
 
 const Footer: React.FC = () => {
   return(
-    <footer>
+    <footer className="">
       This is the footer content
     </footer>
   )
