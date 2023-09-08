@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id="header-navbar">
           <Nav className="d-flex justify-content-end">
-            <Nav.Link href="#link">link 1</Nav.Link>
+            <Link href="/text-analyzer" className="nav-link">Text Analyzer</Link>
             <Link href="/about" className="nav-link">About</Link>
           </Nav>
         </Navbar.Collapse>
