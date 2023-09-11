@@ -5,10 +5,8 @@ import { Container, Row } from "react-bootstrap";
 import { Counter } from "./Counter";
 import { Textarea } from "@/components/Textarea";
 
-interface TextAnalyzerProps {
 
-}
-export function TextAnalyzer(props : TextAnalyzerProps){
+const TextAnalyzer = () => {
     const [content, setContent] = useState("")
 
     function handleOnChangeText(content: string) {
@@ -17,7 +15,7 @@ export function TextAnalyzer(props : TextAnalyzerProps){
 
     function wordCounter(content: string) {
         if (content) {
-            const words = content.split(" ")
+            const words = content.trim().split(" ")
             return words?.length
         }
         return 0

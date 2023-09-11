@@ -1,15 +1,14 @@
 'use client';
 
 import Link from 'next/link';
-import React from 'react';
 import {
   Container,
   Nav,
   Navbar
 } from 'react-bootstrap';
-const Header: React.FC = () => {
+const Header = () => {
  return(
-  <header className="" data-testid="header">
+  <header className="bg-light" data-testid="header">
     <Container fluid>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAnalyzer Should render on screen 1`] = `
+<main
+  data-testid="text-analyzer"
+>
+  <div
+    class="container-fluid"
+    data-testid="analyzer"
+  >
+    <div
+      class="row row-cols-md-4 row-cols-1"
+    >
+      <div
+        data-testid="counter"
+      >
+        <h1>
+          Words
+        </h1>
+        <h2>
+          0
+        </h2>
+      </div>
+      <div
+        data-testid="counter"
+      >
+        <h1>
+          Characters
+        </h1>
+        <h2>
+          0
+        </h2>
+      </div>
+      <div
+        data-testid="counter"
+      >
+        <h1>
+          Sentences
+        </h1>
+        <h2>
+          0
+        </h2>
+      </div>
+      <div
+        data-testid="counter"
+      >
+        <h1>
+          Paragraphs
+        </h1>
+        <h2>
+          0
+        </h2>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <form
+        class=""
+      >
+        <div
+          class="mb-3"
+        >
+          <label
+            class="form-label"
+          >
+            Type in your text
+          </label>
+          <textarea
+            class="form-control"
+            data-testid="textarea"
+            id="text-analyzer"
+            rows="5"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+`;

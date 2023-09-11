@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react'
+import { render, screen, fireEvent } from '@testing-library/react'
 import TextAnalyzer from '@/app/text-analyzer/page'
 
 describe('TextAnalyzer', () => {
@@ -6,5 +6,6 @@ describe('TextAnalyzer', () => {
     render(<TextAnalyzer />)
     const element = await screen.findByTestId('text-analyzer')
     expect(element).toBeInTheDocument()
+    expect(element).toMatchSnapshot()
   })
 })

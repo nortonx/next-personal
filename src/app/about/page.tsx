@@ -1,9 +1,10 @@
-import React from 'react';
 
-const Page: React.FC = () => {
+const AboutPage = () => {
   return(
-    <h1>This is the /About page</h1>
+    <main data-testid="about">
+      <h1>This is the /About page</h1>
+    </main>
   )
 }
 
-export default Page;
+export default AboutPage;
