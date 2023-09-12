@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Page Should render About Page and match snapshot 1`] = `
+<main
+  data-testid="about"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col"
+      >
+        <div>
+          <p
+            class="fs-3"
+          >
+            This website was built with:
+          </p>
+          <ul
+            class="list-group"
+          >
+            <li
+              class="list-group-item"
+            >
+              <a
+                class="link"
+                href="https://nextjs.org/"
+                target="_blank"
+              >
+                Next.JS 13
+              </a>
+            </li>
+            <li
+              class="list-group-item"
+            >
+              <a
+                class="link"
+                href="https://www.typescriptlang.org/"
+                target="_blank"
+              >
+                Typescript
+              </a>
+            </li>
+            <li
+              class="list-group-item"
+            >
+              <a
+                class="link"
+                href="https://react-bootstrap.github.io/"
+                target="_blank"
+              >
+                React Bootstrap
+              </a>
+            </li>
+            <li
+              class="list-group-item"
+            >
+              <a
+                class="link"
+                href="https://github.com/css-modules/css-modules"
+                target="_blank"
+              >
+                CSS Modules
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="col"
+      />
+    </div>
+  </div>
+</main>
+`;
