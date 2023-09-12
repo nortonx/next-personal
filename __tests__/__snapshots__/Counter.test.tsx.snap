@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter component Should render component and match snapshot 1`] = `
+<div
+  class="py-2"
+  data-testid="counter"
+>
+  <div
+    class="card"
+  >
+    <div
+      class="card-body"
+    >
+      <div
+        class="d-flex justify-content-center fs-2 card-title h5"
+      >
+        Words
+      </div>
+      <p
+        class="d-flex justify-content-center text-secondary fs-3 card-text"
+      >
+        0
+      </p>
+    </div>
+  </div>
+</div>
+`;
