@@ -16,6 +16,7 @@ const Header = () => {
         <Navbar.Collapse id="header-navbar">
           <Nav className="d-flex justify-content-end">
             <Link href="/text-analyzer" className="nav-link">Text Analyzer</Link>
+            <Link href="/password-generator" className="nav-link">Password Generator</Link>
             <Link href="/about" className="nav-link">About</Link>
           </Nav>
         </Navbar.Collapse>
