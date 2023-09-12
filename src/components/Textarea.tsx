@@ -9,7 +9,7 @@ export function Textarea({ label, id, onChangeText } : TextareaProps){
     return(
         <Form>
           <Form.Group className="mb-3">
-            <Form.Label>{label}</Form.Label>
+            <Form.Label className="fs-3 fw-semibold">{label}</Form.Label>
             <Form.Control 
               as="textarea" 
               rows={5}
