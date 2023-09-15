@@ -7,9 +7,10 @@ interface InputProps {
   placeholder?: string;
   value: string;
   onChange(event: React.ChangeEvent<HTMLInputElement>): void;
+  disabled: boolean;
 
 }
-export function Input({label, id, type, placeholder, value, onChange } : InputProps){
+export function Input<HTMLInputElement>({label, id, type, placeholder, value, onChange, disabled } : InputProps){
     return(
         <Form.Group className="mb-3">
           <Form.Label htmlFor={id}>{label}</Form.Label>
@@ -19,6 +20,7 @@ export function Input({label, id, type, placeholder, value, onChange } : InputPr
             id={id}
             value={value}
             onChange={onChange}
+            disabled={true}
           />
         </Form.Group>
     )
