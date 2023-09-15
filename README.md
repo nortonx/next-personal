@@ -14,7 +14,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Hosted at: [https://vercel.com/nortonalmeida/next-personal](https://vercel.com/nortonalmeida/next-personal)
+Hosted at: [https://next-personal-psi.vercel.app/](https://next-personal-psi.vercel.app/)
 
 ## Learn More
 
