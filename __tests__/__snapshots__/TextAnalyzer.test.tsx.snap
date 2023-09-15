@@ -12,44 +12,96 @@ exports[`TextAnalyzer Should render on screen 1`] = `
       class="row row-cols-md-4 row-cols-1"
     >
       <div
+        class="py-2"
         data-testid="counter"
       >
-        <h1>
-          Words
-        </h1>
-        <h2>
-          0
-        </h2>
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <div
+              class="d-flex justify-content-center fs-2 card-title h5"
+            >
+              Words
+            </div>
+            <p
+              class="d-flex justify-content-center text-secondary fs-3 card-text"
+            >
+              0
+            </p>
+          </div>
+        </div>
       </div>
       <div
+        class="py-2"
         data-testid="counter"
       >
-        <h1>
-          Characters
-        </h1>
-        <h2>
-          0
-        </h2>
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <div
+              class="d-flex justify-content-center fs-2 card-title h5"
+            >
+              Characters
+            </div>
+            <p
+              class="d-flex justify-content-center text-secondary fs-3 card-text"
+            >
+              0
+            </p>
+          </div>
+        </div>
       </div>
       <div
+        class="py-2"
         data-testid="counter"
       >
-        <h1>
-          Sentences
-        </h1>
-        <h2>
-          0
-        </h2>
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <div
+              class="d-flex justify-content-center fs-2 card-title h5"
+            >
+              Sentences
+            </div>
+            <p
+              class="d-flex justify-content-center text-secondary fs-3 card-text"
+            >
+              0
+            </p>
+          </div>
+        </div>
       </div>
       <div
+        class="py-2"
         data-testid="counter"
       >
-        <h1>
-          Paragraphs
-        </h1>
-        <h2>
-          0
-        </h2>
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <div
+              class="d-flex justify-content-center fs-2 card-title h5"
+            >
+              Paragraphs
+            </div>
+            <p
+              class="d-flex justify-content-center text-secondary fs-3 card-text"
+            >
+              0
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <div
@@ -62,7 +114,7 @@ exports[`TextAnalyzer Should render on screen 1`] = `
           class="mb-3"
         >
           <label
-            class="form-label"
+            class="fs-3 fw-semibold form-label"
           >
             Type in your text
           </label>
