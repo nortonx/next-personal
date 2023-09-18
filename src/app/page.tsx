@@ -18,11 +18,11 @@ export default function Home() {
             <h2>About me:</h2>
             <p>As a Senior Front-end developer, I deliver high-quality web solutions using cutting-edge technologies and best practices. I have 10+ years of experience in web development, with a focus on front-end/UI engineering for the past 8+ years.</p>
 
-            <p>I have strong skills in Vue.js, HTML5, CSS, and Javascript, as well as experience with Ruby on Rails, PostgreSQL, MySQL, SQL Server, and other tools and frameworks such as React, Node.js. I am fluent in English and Portuguese, and I have a bachelor's degree in Information Systems. I am passionate about continuous learning, teamwork, collaboration, and adaptability. I always seek to go deep and specialize in the stack I am currently working on, and to deliver the best results for clients.</p>
+            <p>I have strong skills in Vue.js, HTML5, CSS, and Javascript, as well as experience with Ruby on Rails, PostgreSQL, MySQL, SQL Server, and other tools and frameworks such as React, Node.js. I am fluent in English and Portuguese, and I have a bachelor&lsquo;s degree in Information Systems. I am passionate about continuous learning, teamwork, collaboration, and adaptability. I always seek to go deep and specialize in the stack I am currently working on, and to deliver the best results for clients.</p>
             <Button variant="primary" href="https://www.linkedin.com/in/norton-almeida/">LinkedIn Profile</Button>
           </div>
         </Col>
-        <Col className="col-md-6" style={{'display': 'none'}}>
+        <Col className="col-md-6" style={{"display": "none"}}>
           <div className="h-100 p-5 bg-body-tertiary border rounded-3">
             <h2>Add Borders</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magni numquam unde dolores accusamus tempore ullam neque sequi vitae? Quidem sapiente dolorem dolore est, fuga natus placeat necessitatibus odit exercitationem.</p>
