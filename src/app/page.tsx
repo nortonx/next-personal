@@ -10,7 +10,6 @@ export default function Home() {
       <Container fluid className="py-5">
         <h1 className="display-5 fw-bold">Norton Almeida</h1>
         <p className="col-md-8 fs-4">Frontend Developer - Javascript | Typescript | Vue.js | React | Next.js</p>
-        <Button variant="primary">Click me</Button>
       </Container>
       <Row className="align-items-md-stretch">
         <Col className="col-md-6">
