@@ -21,11 +21,12 @@ export default function Home() {
             <Button variant="primary" href="https://www.linkedin.com/in/norton-almeida/">LinkedIn Profile</Button>
           </div>
         </Col>
-        <Col className="col-md-6" style={{"display": "none"}}>
+        <Col className="col-md-6">
           <div className="h-100 p-5 bg-body-tertiary border rounded-3">
-            <h2>Add Borders</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magni numquam unde dolores accusamus tempore ullam neque sequi vitae? Quidem sapiente dolorem dolore est, fuga natus placeat necessitatibus odit exercitationem.</p>
-            <Button variant="outline-secondary">Example Button</Button>
+            <h2>About this "site"</h2>
+            <p>This is a Next.js 13 website to showcase React/Next.js skills and 
+            experiments/implementations.</p>
+            <Button variant="outline-secondary">This button will work in the future</Button>
           </div>
         </Col>
       </Row>
