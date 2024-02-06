@@ -93,8 +93,8 @@ const PasswordGeneratorPage = () => {
               type="text"
               value={password}
               onChange={(event) => setPassword(event.target.value)}
-              data-testid="input-generated-password"
-              disabled={true}
+              testId="input-generated-password"
+              disabled
             />
             <div className="d-flex justify-content-around">
               <Button variant="warning" onClick={() => setPassword("")} data-testid="reset-password">Reset</Button>
@@ -144,6 +144,7 @@ const PasswordGeneratorPage = () => {
             <Button 
               variant="outline-primary" 
               onClick={generatePassword}
+              data-testid="generate-password-btn"
             >
               Generate Password
             </Button>
